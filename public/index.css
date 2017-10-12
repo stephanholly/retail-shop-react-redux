@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+  height:5vh;
+  width: 100%;
+  margin-top: 0;
+  border-bottom:1px solid black;
+  padding-top: 1vh;
+
+}
+
+#cartContainer {
+  margin-top: 1vh;
+  text-align: right;
+  padding:15px;
+  width: 25%;
+  display: none;
+  z-index: -1;
+  float: right;
+  background-color: grey;
+  border: 3px solid #AD202D;
+
+}
+
+.headerCart {
+  display: inline-block;
+  width: 33%;
+
+}
+
+.headerLogo {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.headerHome {
+  display: inline-block;
+  width: 33%
+}
+
+
+.home {
+  text-align: center;
+  margin-left: 20px;
+
+  float: left;
+  color: black;
+  height:4vh;
+  width: 6%;
+
+}
+
+
+.cartImg {
+
+  height:4vh;
+  width: 6%;
+  float: right;
+  margin-right: 20px;
+}
+
+.logo {
+
+  height:4vh;
+  width: 7%;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-top: 2px;
+}
+
+.watchesP{
+    margin: 0;
+    background: url("https://ak5.picdn.net/shutterstock/videos/14386345/thumb/3.jpg") no-repeat center center fixed;
+    height: 60vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 12em;
+    color: #AD202D;
+    padding-top: 35vh;
+}
+
+
+.innerDiv {
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: black;
+}
+
+.homeLeft {
+  vertical-align: top;
+  width: 50%;
+  height: 100vh;
+  display: inline-block;
+
+}
+
+.homeRight {
+  width: 50%;
+  height: 100vh;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.topLeft, .bottomRight {
+  height: 55vh;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.topRight, .bottomLeft {
+  height: 45vh;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.tlImage, .brImage {
+  width:100%;
+  height: 55vh;
+}
+
+.trImage, .blImage {
+  width:100%;
+  height: 45vh;
+}
+
+.buy {
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.shopButton {
+  margin-top: 30vh;
+  font-size: 12em;
+}
+
+.shopA{
+
+  color: #AD202D;
+}
+
+.productContainer {
+  text-align: center;
+  border: 3px solid #AD202D;
+  display: inline-block;
+  margin-top: 5vh;
+  margin-left: 13%;
+  margin-bottom: 5vh;
+  display: inline-block;
+}
+
+.media-object {
+  height: 30vh;
+  width: 60%
+}
+
+.watchImage {
+  height: 30vh;
+  margin-bottom: 20px;
+}
+
+
+.master {
+  text-align: center;
+    display: inline-block;
+    height: 50vh;
+    width: 24%;
+}
+
+.watchTitleH, .watchPriceH {
+  margin-top: 3px;
+}
+
+.IndproductLeft {
+  margin-top: 5vh;
+  position: relative;
+margin-bottom: 8vh;
+  display: inline-block;
+  width: 55%;
+}
+.IndproductRight {
+  margin-top: 20vh;
+  margin-bottom: 8vh;
+  margin-left: 4%;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 50vh;
+  vertical-align: top;
+}
+
+.IndwatchImage {
+  border: 3px solid #AD202D;
+  width: 80%;
+  position: relative;
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  margin-left: 20%;
+  margin-right: 0%;
+}
+
+.Indmedia-objectwatch {
+  border: 3px solid #AD202D;
+  width: 80%;
+  position: relative;
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  margin-left: 20%;
+  margin-right: 0%;
+}
+
+.addToCart {
+  height:7vh;
+  margin-top: 3vh;
+  width: 50%;
+  border: 3px solid #AD202D;
+  font-family: 'Montserrat', sans-serif;
+}
+.IndwatchPriceH {
+  margin: 0;
+  margin-bottom: 2vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+}
+
+ .IndwatchTitleH {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+    margin-bottom: 2vh;
+}
+
+.quantityP  {
+
+  margin: 0;
+    margin-bottom: 1vh;
+}
+
+.quantity {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 34px;
+  width: 30%;
+
+}
