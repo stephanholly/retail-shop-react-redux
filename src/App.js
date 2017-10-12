@@ -64,7 +64,7 @@ export class App extends Component {
 
           <div className="footer">
             <div className="adminLink">
-              <Link to="/adminLogin">Admin</Link>
+              <Link className="adminLinkText" to="/adminLogin">Admin</Link>
             </div>
           </div>
         </div>

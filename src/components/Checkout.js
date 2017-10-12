@@ -79,7 +79,7 @@ class Checkout extends Component {
            <Field name="cc_expire" id="cc_expire" className="form-control" component="input" type="text" />
          </div>
          <div className="form-group">
-           <button type="submit" className="btn btn-primary">
+           <button type="submit" className="btn2 btn-primary">
              Submit Order
            </button>
          </div>

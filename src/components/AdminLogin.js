@@ -14,9 +14,9 @@ class AdminLogin extends Component {
   render() {
     return (
       <div className="AdminLoginContainer">
-      <form onSubmit={ this.props.handleSubmit(this.adminLoginCred)}>
+      <form className="loginForm" onSubmit={ this.props.handleSubmit(this.adminLoginCred)}>
          <div>
-          <h3>Admin Login</h3>
+          <h3 className="h3login">Admin Login</h3>
            <label htmlFor="username">Username</label>
            <Field name="username" id="username" className="form-control" component="input" type="text"/>
          </div>
@@ -25,7 +25,7 @@ class AdminLogin extends Component {
            <Field name="password" id="password" className="form-control" component="input" type="text"/>
          </div>
          <div className="form-group">
-           <button type="submit" className="btn btn-primary">
+           <button type="submit" className="btn1 btn-primary">
              Login
            </button>
          </div>
