@@ -47,23 +47,23 @@ editItem = (values) => {
             this.props.productActions.deleteProduct(this.props.id)}} className="adminWatchEditDelete">X</button>
       </div>
       </div>
-      <div id={this.props.id} className="editForm" style={{display: 'none'}}>
+      <div id={this.props.id} className="editForm1" style={{display: 'none'}}>
         <form onSubmit={ this.props.handleSubmit(this.editItem, this.props.id) }>
           <div className="editInputs">
             <label htmlFor="name">Name</label>
-            <Field name="name" id="name" className="form-control" component="input" type="text"/>
+            <Field name="name" id="name" className="form-control3" component="input" type="text"/>
           </div>
           <div className="editInputs">
             <label htmlFor="price">Price</label>
-            <Field name="price" id="price" className="form-control" component="input" type="text"/>
+            <Field name="price" id="price" className="form-control3" component="input" type="text"/>
           </div>
           <div className="editInputs">
             <label htmlFor="soldout">Sold Out?(true or false)</label>
-            <Field name="soldout" id="soldout" className="form-control" component="input" type="text"/>
+            <Field name="soldout" id="soldout" className="form-control3-1" component="input" type="text"/>
           </div>
           <div className="editInputs">
             <label htmlFor="picurl">Image URL</label>
-            <Field name="picurl" id="picurl" className="form-control" component="input" type="text" />
+            <Field name="picurl" id="picurl" className="form-control3" component="input" type="text" />
           </div>
           <div className="form-group">
             <button type="submit" className="btnEdit btn-primary">

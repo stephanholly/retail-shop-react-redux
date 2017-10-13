@@ -28,58 +28,58 @@ class Checkout extends Component {
       Total: ${total}
       </div>
       <br/>
-      <form onSubmit={ this.props.handleSubmit(this.addUser)}>
-         <div>
-          <h3>Payment Info</h3>
+      <form className="checkoutFormContainer" onSubmit={ this.props.handleSubmit(this.addUser)}>
+         <div className="cofd">
+          <h3 className="paymentInfoH">Payment Info</h3>
            <label htmlFor="first_name">First Name</label>
-           <Field name="first_name" id="first_name" className="form-control" component="input" type="text"/>
+           <Field name="first_name" id="first_name" className="form-control4" component="input" type="text"/>
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="last_name">Last Name</label>
-           <Field name="last_name" id="last_name" className="form-control" component="input" type="text"/>
+           <Field name="last_name" id="last_name" className="form-control4" component="input" type="text"/>
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="email">Email</label>
-           <Field name="email" id="email" className="form-control" component="input" type="text"/>
+           <Field name="email" id="email" className="form-control4" component="input" type="text"/>
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="street_address">Street Address</label>
-           <Field name="street_address" id="street_address" className="form-control" component="input" type="text" />
+           <Field name="street_address" id="street_address" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="city">City</label>
-           <Field name="city" id="city" className="form-control" component="input" type="text" />
+           <Field name="city" id="city" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="state">State</label>
-           <Field name="state" id="state" className="form-control" component="input" type="text" />
+           <Field name="state" id="state" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="zip">Zip Code</label>
-           <Field name="zip" id="zip" className="form-control" component="input" type="text" />
+           <Field name="zip" id="zip" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="cc_type">Credit Card Type</label>
-           <Field name="cc_type" id="cc_type" className="form-control" component="input" type="text" />
+           <Field name="cc_type" id="cc_type" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="cc_name_on">Name on Card</label>
-           <Field name="cc_name_on" id="cc_name_on" className="form-control" component="input" type="text" />
+           <Field name="cc_name_on" id="cc_name_on" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="cc_number">Credit Card Number</label>
-           <Field name="cc_number" id="cc_number" className="form-control" component="input" type="text" />
+           <Field name="cc_number" id="cc_number" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="cc_code">Code</label>
-           <Field name="cc_code" id="cc_code" className="form-control" component="input" type="text" />
+           <Field name="cc_code" id="cc_code" className="form-control4" component="input" type="text" />
          </div>
-         <div>
+         <div className="cofd">
            <label htmlFor="cc_expire">Expiration Date (MMYY)</label>
-           <Field name="cc_expire" id="cc_expire" className="form-control" component="input" type="text" />
+           <Field name="cc_expire" id="cc_expire" className="form-control4" component="input" type="text" />
          </div>
-         <div className="form-group">
-           <button type="submit" className="btn2 btn-primary">
+         <div className="form-group-butt">
+           <button type="submit" className="btn2323 btn-primary">
              Submit Order
            </button>
          </div>

@@ -338,9 +338,8 @@ a {
 }
 
 .btnEdit {
-  /*padding: 10px;
-  float: right;
-margin-right: 10px;*/
+  padding: 8px;
+  margin-bottom: 2vh;
 }
 
 .admin-Media-object {
@@ -418,8 +417,89 @@ margin-right: 10px;*/
    text-align: center;
 }
 
-.btn22 {
+.btn22  {
   height: 3vh;
   background-color: white;
   border: 1px solid black;
+}
+
+.adminWatchDelete {
+  margin-right: 5%;
+}
+
+.adminWatchEditDelete, .adminWatchEditButton {
+  margin-top: 2.5vh;
+  margin-right: 5%;
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.editInputs {
+  padding: 10px;
+}
+
+.editForm1 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.form-control3-1 {
+    width: 17%;
+    margin-left: 2%;
+}
+
+.form-control3 {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.products {
+  margin: 0 auto;
+  margin-top: 10vh;
+  border: 3px solid #AD202D;
+  padding 10px;
+  width: 50%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.cofd {
+  padding: 10px;
+  margin-left: 5%;
+
+}
+
+.checkoutFormContainer {
+  margin: 0 auto;
+  margin-top: 5vh;
+  border: 3px solid #AD202D;
+  width: 50%;
+}
+
+.form-control4 {
+  width: 50%;
+  margin-left: 5%
+}
+
+.paymentInfoH {
+  text-align: center;
+}
+
+.btn2323 {
+
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  width: 20%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.form-group-butt {
+  text-align: center;
 }
