@@ -8,8 +8,8 @@ const ProductsList = ({products}) => {
       id={product.id}
       name={ product.name }
       price={ product.price }
-      soldOut={ product.soldOut}
-      picUrl={ product.picUrl }
+      soldout={ product.soldout}
+      picurl={ product.picurl }
     />)
 
 

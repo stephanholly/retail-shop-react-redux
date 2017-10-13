@@ -16,6 +16,8 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import Success from './components/Success';
 import AdminLogin from './components/AdminLogin'
+import Admin from './components/Admin'
+import AddProduct from './components/AddProduct'
 
 import * as productActions from './actions/products'
 
@@ -60,11 +62,12 @@ export class App extends Component {
           <Route exact path="/checkout" component={Checkout}/>
           <Route exact path="/success" component={Success}/>
           <Route exact path="/adminLogin" component={AdminLogin}/>
+          <Route exact path="/admin" component={Admin}/>
 
 
           <div className="footer">
             <div className="adminLink">
-              <Link className="adminLinkText" to="/adminLogin">Admin</Link>
+              <Link className="adminLinkText" to="/admin">Admin</Link>
             </div>
           </div>
         </div>

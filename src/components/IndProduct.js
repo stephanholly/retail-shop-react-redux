@@ -21,7 +21,7 @@ return (
   <div className="masterInd">
     <div className="IndproductLeft">
       <div className="IndwatchImage">
-        <img className="Indmedia-object" src={this.props.indProduct.picUrl} alt="BLERG" />
+        <img className="Indmedia-object" src={this.props.indProduct.picurl} alt="BLERG" />
       </div>
     </div>
     <div className="IndproductRight">

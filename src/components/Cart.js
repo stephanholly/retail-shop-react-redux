@@ -22,7 +22,7 @@ componentWillMount = () => {
 
 render() {
 let cartItems = this.props.cart.map((item,idx) =>
-  <div key={idx} className="indCartItem"><h3>{item.quant}: {item.name} @ ${item.price} </h3></div>)
+  <div key={idx} className="indCartItem"><h3>({item.quant}) {item.name} @ ${item.price} </h3></div>)
 let total = this.props.cart.reduce((acc,curr) => { return acc + (Number(curr.price)* Number(curr.quant))},0)
 
   console.log(this.props.cart)

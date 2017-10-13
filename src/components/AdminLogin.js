@@ -18,11 +18,11 @@ class AdminLogin extends Component {
          <div>
           <h3 className="h3login">Admin Login</h3>
            <label htmlFor="username">Username</label>
-           <Field name="username" id="username" className="form-control" component="input" type="text"/>
+           <Field name="username" id="username" className="form-control1" component="input" type="text"/>
          </div>
          <div>
            <label htmlFor="password">Password</label>
-           <Field name="password" id="password" className="form-control" component="input" type="text"/>
+           <Field name="password" id="password" className="form-control1" component="input" type="text"/>
          </div>
          <div className="form-group">
            <button type="submit" className="btn1 btn-primary">

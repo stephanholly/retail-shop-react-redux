@@ -9,7 +9,7 @@ class Product extends Component {
     <div className="master">
     <Link to={'/products/' + this.props.id}><div className="productContainer">
       <div className="watchImage">
-        <img className="media-object" src={this.props.picUrl} alt="BLERG" />
+        <img className="media-object" src={this.props.picurl} alt="BLERG" />
       </div>
       <hr/>
       <div className="watchTitle">

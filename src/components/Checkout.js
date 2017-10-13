@@ -18,7 +18,7 @@ class Checkout extends Component {
   render() {
 
     let checkoutList = this.props.cart.map((coitem,idx) =>
-      <div key={idx} className="indItem"><h3>{coitem.quant}: {coitem.name} @ ${coitem.price} </h3></div>)
+      <div key={idx} className="indItem"><h3>({coitem.quant}) {coitem.name} @ ${coitem.price} </h3></div>)
     let total = this.props.cart.reduce((acc,curr) => { return acc + (Number(curr.price)* Number(curr.quant))},0)
 
   return (
