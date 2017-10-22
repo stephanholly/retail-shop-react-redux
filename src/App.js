@@ -22,6 +22,7 @@ import AddProduct from './components/AddProduct'
 import * as productActions from './actions/products'
 
 
+
 export class App extends Component {
 
   viewCart = () => {
@@ -37,10 +38,12 @@ export class App extends Component {
     this.props.productActions.getProducts();
   }
 
+
+
   render() {
     return (
       <Router>
-        <div>
+        <div className="appContainer">
           <div className="header">
             <div className="headerHome">
               <Link to="/products"><img className="home" src="https://upload.wikimedia.org/wikipedia/commons/9/92/Less_than_sign.png"></img></Link>
@@ -67,7 +70,7 @@ export class App extends Component {
 
           <div className="footer">
             <div className="adminLink">
-              <Link className="adminLinkText" to="/admin">Admin</Link>
+              <Link className="adminLinkText" to="/adminLogin">Admin</Link>
             </div>
           </div>
         </div>
@@ -80,13 +83,13 @@ export class App extends Component {
 function mapStateToProps(state, props) {
   return {
     products: state.products
+
   }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
     productActions: bindActionCreators(productActions, dispatch)
-
   }
 }
 

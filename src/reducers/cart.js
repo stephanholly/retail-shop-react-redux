@@ -4,6 +4,8 @@ export default(state = [], action) => {
       return state;
     case 'ADD_TO_CART':
       return state.concat(action.payload)
+    case 'DELETE_FROM_CART':
+      return state.filter( item  => item !== action.payload)
     default:
       return state;
   }

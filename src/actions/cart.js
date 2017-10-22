@@ -10,3 +10,11 @@ export const getCart = () => {
     type: 'GET_CART',
   }
 }
+
+export const deleteItem = (item) => {
+  console.log("deleteItem", item)
+  return {
+    type: 'DELETE_FROM_CART',
+    payload: item
+  }
+}

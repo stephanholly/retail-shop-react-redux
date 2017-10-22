@@ -13,7 +13,8 @@ class AdminLogin extends Component {
 
   render() {
     return (
-      <div className="AdminLoginContainer">
+      <div className="masterInd">
+      <div className="indContainerLogin">
       <form className="loginForm" onSubmit={ this.props.handleSubmit(this.adminLoginCred)}>
          <div>
           <h3 className="h3login">Admin Login</h3>
@@ -30,6 +31,7 @@ class AdminLogin extends Component {
            </button>
          </div>
       </form>
+      </div>
       </div>
     );
   }

@@ -3,7 +3,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 95vh;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -20,7 +20,7 @@ html, body {
   margin-top: 1vh;
   text-align: right;
   padding:15px;
-  width: auto;
+  min-width: 20%;
   display: none;
   right: 0;
   position: absolute;
@@ -112,7 +112,7 @@ a {
     width: 100%;
     height: 5vh;
     margin: 0 auto;
-    margin-top: 25px;
+
     background-color: black;
 }
 
@@ -299,7 +299,7 @@ a {
 .loginForm {
   padding-top: 15vh;
   margin: 0 auto;
-  margin-top: 18vh;
+  /*margin-top: 18vh;*/
   margin-bottom: 35vh;
   height: 30vh;
   width: 40%;
@@ -318,10 +318,30 @@ a {
 .innerAPC {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   width: 60%;
   border: 1px solid black;
+}
 
+.leftAdminProduct {
+  margin: 0 auto;
+  display: flex;
+    justify-content: space-between;
+  width: 30%;
+}
+
+.rightAdminProduct {
+  margin: 0 auto;
+  display: flex;
+    justify-content: space-between;
+  width: 30%;
+  margin-left: 20%;
+}
+
+.middleAdminProduct {
+  margin: 0 auto;
+  display: flex;
+    justify-content: space-between;
+  width: 40%;
 }
 
 .editForm {
@@ -360,13 +380,13 @@ a {
 }
 
 .admin-title {
-
   text-align: center;
 }
 
 .inventoryText {
-  marigin-top: 15vh;
+  padding-top: 10vh;
   font-size: 4em;
+  margin-top: 0vh;
 }
 
 .addNewItemButton {
@@ -375,6 +395,7 @@ a {
   display: flex;
   border: 2px solid #AD202D;
   padding: 8px;
+  margin-bottom: 3vh;
   padding-bottom: 12px;
   background-color: white;
   width: 80px;
@@ -386,9 +407,6 @@ a {
   margin-top: 10px;
 }
 
-.addItemFormContainer {
-
-}
 
 .addItemForm {
   width: 30%;
@@ -460,9 +478,8 @@ a {
 
 .products {
   margin: 0 auto;
-  margin-top: 10vh;
   border: 3px solid #AD202D;
-  padding 10px;
+  padding: 20px;
   width: 30%;
   justify-content: space-around;
   text-align: center;
@@ -477,6 +494,7 @@ a {
 .checkoutFormContainer {
   margin: 0 auto;
   margin-top: 5vh;
+  margin-bottom: 5vh;
   border: 3px solid #AD202D;
   width: 50%;
 }
@@ -517,4 +535,59 @@ a {
 
 .successh3, .successbh{
   font-size: 4em;
+}
+
+.masterInd {
+  background: url('https://ak5.picdn.net/shutterstock/videos/14386345/thumb/3.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+/*min-height: 100vh;*/
+width: auto;
+}
+
+.indContainer {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.indContainerLogin {
+  padding-top: 17vh;
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.checkoutContainer {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 5vh;
+}
+
+.checkoutButtonClick {
+  padding: 5px;
+  margin: 10px;
+
+  background-color: white;
+  border: 1px solid black;
+}
+
+.indCartItem {
+  margin: 0 auto;
+  height:5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  margin-left: 5px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

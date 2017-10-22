@@ -22,21 +22,21 @@ componentWillMount = () => {
 
 render() {
 let cartItems = this.props.cart.map((item,idx) =>
-  <div key={idx} className="indCartItem"><h3>({item.quant}) {item.name} @ ${item.price} </h3></div>)
+  <div key={idx} className="indCartItem"><h3>({item.quant}) {item.name} @ ${item.price} </h3> <button className="deleteButton" onClick={(e) => this.props.cartActions.deleteItem(item)}>x</button></div>)
 let total = this.props.cart.reduce((acc,curr) => { return acc + (Number(curr.price)* Number(curr.quant))},0)
 
   console.log(this.props.cart)
 return (
   <div className="cartContainer" id="cartContainer">
       <div className="innerCartContainer">
-      {cartItems}
+      {cartItems.length === 0? "there are no items in your cart": cartItems}
       <hr/>
       <div className="total">
         <h2>Total: ${total}</h2>
       </div>
       </div>
       <div className="checkoutButton">
-        <Link to="/checkout"><button onClick={this.closeCart}>Checkout</button></Link>
+        <Link to="/checkout"><button className="checkoutButtonClick" onClick={this.closeCart}>Checkout</button></Link>
       </div>
   </div>
   )

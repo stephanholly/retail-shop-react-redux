@@ -22,6 +22,7 @@ class Checkout extends Component {
     let total = this.props.cart.reduce((acc,curr) => { return acc + (Number(curr.price)* Number(curr.quant))},0)
 
   return (
+    <div className="masterInd">
     <div className="checkoutContainer">
     <div className="products">
       {checkoutList}
@@ -85,6 +86,7 @@ class Checkout extends Component {
          </div>
       </form>
     </div>
+  </div>
     )
   }
   }

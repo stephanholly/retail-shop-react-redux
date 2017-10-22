@@ -27,18 +27,23 @@ editItem = (values) => {
 
       <div className="adminProductContainer">
         <div className="innerAPC">
+        <div className="leftAdminProduct">
         <div className="adminWatchId">
             <h5 className="adminWatchIdH">{this.props.id}</h5>
         </div>
         <div className="adminWatchImage">
           <img className="admin-Media-object" src={this.props.picurl} alt="BLERG" />
         </div>
+        </div>
+          <div className="middleAdminProduct">
       <div className="adminWatchTitle">
         <h4 className="adminWatchTitleH">{this.props.name}</h4>
       </div>
       <div className="adminWatchPrice">
         <h5 className="adminWatchPriceH">${this.props.price}</h5>
       </div>
+    </div>
+      <div className="rightAdminProduct">
       <div className="adminWatchEdit">
         <button onClick={this.toggleEditForm} className="adminWatchEditButton">Edit</button>
       </div>
@@ -46,6 +51,7 @@ editItem = (values) => {
         <button onClick={(e) =>{
             this.props.productActions.deleteProduct(this.props.id)}} className="adminWatchEditDelete">X</button>
       </div>
+    </div>
       </div>
       <div id={this.props.id} className="editForm1" style={{display: 'none'}}>
         <form onSubmit={ this.props.handleSubmit(this.editItem, this.props.id) }>

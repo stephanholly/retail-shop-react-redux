@@ -19,6 +19,7 @@ componentWillMount = () => {
 render() {
 return (
   <div className="masterInd">
+    <div className="indContainer">
     <div className="IndproductLeft">
       <div className="IndwatchImage">
         <img className="Indmedia-object" src={this.props.indProduct.picurl} alt="BLERG" />
@@ -53,7 +54,7 @@ return (
       </form>
       </div>
     </div>
-
+    </div>
   </div>
   )
 }

@@ -17,7 +17,8 @@ class Admin extends Component {
 
   render() {
     return (
-      <div className="AdminProducts">
+      <div className="masterInd">
+      <div className="indContainer">
         <div className="admin-title">
           <h1 className="inventoryText">INVENTORY</h1>
         </div>
@@ -29,6 +30,7 @@ class Admin extends Component {
           <AddProduct/>
         </div>
       </div>
+    </div>
     );
   }
 }
